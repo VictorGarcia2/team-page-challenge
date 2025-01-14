@@ -1,0 +1,328 @@
+img {
+    height: 100%;
+    width: 85%;
+    width: 150px;
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+p {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.Galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 45px;
+
+
+}
+
+.GaleriaDer {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+
+}
+
+.GaleriaIzq {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.GaleriaDer h4 {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 60px;
+    rotate: 90deg;
+    width: 200px;
+}
+
+.GaleriaIzq h4 {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 60px;
+    rotate: 90deg;
+    width: 200px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-variant: small-caps;
+    font-size: 12px;
+}
+
+@media (min-width: 762px) {
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1100px;
+        text-align: center;
+        margin-left: 200px;
+    }
+    .text h1 {
+        width: 16rem;
+    }
+    .text h2 {
+        margin-left: -40px;
+        width: 70%;
+    }
+    .text p{
+        width: 60%;
+        text-align: left;
+        margin-left: 170px;
+        font-size: 1.4rem;
+    }
+    .Galeria{
+        margin-top: -110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaDer{
+        margin-top: -110px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaDer h4{
+        margin-left: 240px;
+        margin-top: -320px;
+        font-size: 1.5rem;
+    }
+    .GaleriaDer h3{
+        margin-top: -80px;
+        margin-left: 90px;
+        font-size: 1.8rem;
+    }
+    .GaleriaIzq{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaIzq h4{
+        margin-left: 220px;
+        margin-top: -295px;
+        font-size: 1.5rem;
+        width: 15rem;
+    }
+    .GaleriaIzq h3{
+        margin-top: -80px;
+        margin-left: 90px;
+        font-size: 1.8rem;
+    }
+    img{
+        padding: 90px;
+        width: 230px;
+    }
+    .abajo{
+        margin-top: 200px;
+    }
+}
+@media (min-width: 1440px) {
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1100px;
+        text-align: center;
+        margin-left: 200px;
+    }
+    .text h1 {
+        width: 16rem;
+    }
+    .text h2 {
+        margin-left: -40px;
+        width: 70%;
+    }
+    .text p{
+        width: 60%;
+        text-align: left;
+        margin-left: 170px;
+        font-size: 1.4rem;
+    }
+    .Galeria{
+        margin-top: -110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaDer{
+        margin-top: -110px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaDer h4{
+        margin-left: 240px;
+        margin-top: -320px;
+        font-size: 1.5rem;
+    }
+    .GaleriaDer h3{
+        margin-top: -80px;
+        margin-left: 90px;
+        font-size: 1.8rem;
+    }
+    .GaleriaIzq{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaIzq h4{
+        margin-left: 220px;
+        margin-top: -290px;
+        font-size: 1.5rem;
+        width: 16rem;
+    }
+    .GaleriaIzq h3{
+        margin-top: -80px;
+        margin-left: 90px;
+        font-size: 1.8rem;
+    }
+    img{
+        padding: 90px;
+        width: 530px;
+    }
+    .abajo{
+        margin-top: 200px;
+    }
+}
+@media (min-width: 1920px) {
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1700px;
+        text-align: center;
+        margin-left: 200px;
+    }
+    .text h1 {
+        width: 100%;
+        font-size: 3rem;
+    }
+    .text h2 {
+        margin-left: -40px;
+        width: 100%;
+        font-size: 3rem;
+    }
+    .text p{
+        width: 90%;
+        text-align: left;
+        margin-left: 170px;
+        font-size: 2.4rem;
+    }
+    .Galeria{
+        width: 100%;
+        margin-top: -110px;
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaDer{
+        margin-top: -110px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaDer h4{
+        margin-left: 310px;
+        margin-top: -410px;
+        font-size: 1.5rem;
+        width: 17rem;
+    }
+    .GaleriaDer h3{
+        margin-top: -80px;
+        margin-left: 90px;
+        font-size: 1.8rem;
+    }
+    .GaleriaIzq{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0px;
+        row-gap: 0px;
+    }
+    .GaleriaIzq h4{
+        margin-left: 310px;
+        margin-top: -410px;
+        font-size: 1.5rem;
+        width: 17rem;
+    }
+    .GaleriaIzq h3{
+        margin-top: -80px;
+        margin-left: 90px;
+        font-size: 1.8rem;
+    }
+    img{
+        padding: 90px;
+        width: 630px;
+    }
+    .abajo{
+        margin-top: 200px;
+    }
+}
